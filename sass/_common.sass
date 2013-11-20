@@ -6,12 +6,12 @@
 html, body 
 	height: 100%
 body
-	font-family: Cambria, Colibri, Arial, Tahoma, sans-serif
+	font-family: Colibri, Arial, Tahoma, sans-serif
 	font-weight: normal 
 	font-size: 14px
 	line-height: 1.2
 	//-webkit-transform: translate3d(0,0,0);
-	//-weblit-backface-visibility: hidden;
+	//-webkit-backface-visibility: hidden;
 // resets
 a img, fieldset 
 	border: none
@@ -38,20 +38,63 @@ table
 	border-spacing: 0
 	border-collapse: collapse
 // common styles
-.wrap
+.page
 	min-height: 100%
 	height: auto !important
 	height: 100%
-	margin: 0 auto -225px
-.wrap__in
+	margin: 0 auto -205px
+.container
 	position: relative
-	width: 1175px
+	width: 960px
 	margin: 0 auto
 	background: #FFF 
 	z-index: 10 
 .push
-	height: 225px
+	height: 205px
 	clear: both
+
 //header
+.l-header
+	background: #2e3847
 .header
+	height: 35px
+	padding-top: 5px
+	+box 
+	width: 960px
+	margin: 0 auto
+	+clr   
+.nav
+	float: left
+	ul
+		+clr
+		li
+			float: left
+			position: relative
+			height: 30px 
+			a
+				display: block
+				height: 30px
+				padding: 5px 20px 0
+				+box  
+				font-size: 12px
+				color: #fff
+				text-transform: uppercase
+			&:before
+				content: ""
+				position: absolute
+				top: 8px
+				left: 0px
+				+s(nav-border)
+			&:first-child
+				&:before
+					display: none		
+			&:hover
+				a
+					color: #86d3e9 
+// footer
+.footer
+	position: relative
+	height: 205px
+	background: #737a84
+	z-index: 10  
 
