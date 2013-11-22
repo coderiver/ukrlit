@@ -48,11 +48,14 @@ table
 .container
 	position: relative
 	width: 960px
-	margin: 0 auto
+	margin: 64px auto 0
 	z-index: 10 
 .push
 	height: 205px
 	clear: both
+.h2
+	font: 31px 'Philosopher', sans-serif
+	color: #526871
 
 //header
 .header
@@ -284,6 +287,7 @@ table
 	float: right
 	padding-top: 32px 	
 .footer-nav
+	margin-bottom: 40px 
 	ul
 		+clr
 		li
@@ -291,5 +295,60 @@ table
 			margin-left: 24px
 			a
 				color: #fff
-				text-transform: uppercase 
-
+				text-transform: uppercase
+				&:hover
+					color: #86d3e9 
+.footer__ne
+	+clr
+.footer__socials
+	float: right
+	margin-left: 24px 
+	+clr
+	li
+		float: left
+		margin-left: 8px 
+.vk
+	display: block
+	+s(vk)
+.f
+	display: block
+	+s(f)
+.tw
+	display: block
+	+s(tw)
+.gp
+	display: block
+	+s(gp)						
+.counter
+	float: right
+.footer__bot
+	+clr
+	margin-top: 32px 	
+.copyrights
+	float: left
+	+opacity(.5)
+	color: #fff
+	font-family: "Arial", sans-serif
+	font-size: 10px
+	+text-shadow(0 1px 0 rgba(0,0,0,.7))
+.footer__bot
+	span
+		+opacity(.5)
+		color: #fff
+		font-family: "Arial", sans-serif
+		font-size: 10px
+		+text-shadow(0 1px 0 rgba(0,0,0,.7))
+		vertical-align: middle
+	i
+		display: inline-block
+		margin-left: 10px 
+		vertical-align: middle		
+.designer
+	float: right
+	margin-left: 32px 
+.apostol
+	+s(apostol)
+.back-end
+	float: right
+.prog
+	+s(prog)	
