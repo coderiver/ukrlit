@@ -7,9 +7,7 @@
 	.h2
 		margin-bottom: 12px   
 .main
-	overflow: hidden
-	height: 200px
-	background: red    
+	overflow: hidden  
 .sidebar-right
 	float: right
 	width: 200px
@@ -73,3 +71,51 @@
 	color: #abaeb2
 	margin: 20px 
 	padding: 0 24px 				  			 		 			 				
+.authers__topper
+	+clr
+	.h2
+		float: left
+		margin-bottom: 16px 	
+.sort-by
+	float: left
+	font-size: 0
+	padding-top: 1px
+	margin: 9px 0 0 20px   
+	.sort-by__text
+		font-size: 12px
+		color: #abaeb2
+		line-height: 22px 
+	a
+		display: inline-block
+		height: 20px
+		line-height: 20px 
+		padding: 0 4px 
+		margin-left: 10px
+		font-size: 12px 
+		color: #0072a1
+		vertical-align: top
+		span
+			line-height: 1 
+			border-bottom: 1px dotted
+		&:hover
+			position: relative
+			top: 0px
+			color: #2e3847
+			margin: -1px -1px -1px 9px
+			border: 1px solid #c6d6db
+			span
+				border: none
+	a.is-active
+		position: relative
+		top: 0px
+		color: #2e3847
+		margin: -1px -1px -1px 9px
+		border: 1px solid #c6d6db
+		span
+			border: none
+.alphabet
+	clear: both
+	height: 32px
+	background: #f7f7ee
+	@include box-shadow(inset 0 1px 0px #f1f3e2)
+ 					
