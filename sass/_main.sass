@@ -38,6 +38,7 @@
 			color: #0072a1 
 			&:hover
 				color: #fff
+				text-decoration: none
 				background: #e94444  	
 .filter__language, .filter__age, .filter__school, .filter__year, .filter__genre
 	padding-left: 16px 
@@ -94,6 +95,8 @@
 		font-size: 12px 
 		color: #0072a1
 		vertical-align: top
+		&:hover
+			text-decoration: none
 		span
 			line-height: 1 
 			border-bottom: 1px dotted
@@ -148,11 +151,7 @@
 		margin-bottom: 15px 
 		+clr
 		a
-			font-size: 17px
-			color: #0072a1
-			&:hover
-				color: #d02222
-				text-decoration: underline				
+			font-size: 17px			
 .author-list__left
 	float: left
 	p
@@ -179,5 +178,87 @@
 	margin-bottom: 36px 
 	font-size: 12px
 	color: #aabfc8
-	text-align: center 	 	    
- 					
+	text-align: center 
+	
+// biography
+.biography__topper
+	position: relative
+	padding-bottom: 10px
+	margin-bottom: 32px 
+	background: url(../img/author-bg.png) 0% 100% repeat-x  
+	.h3
+		display: inline-block
+	.all-authors
+		position: absolute
+		top: 14px
+		right: 0px
+		color: #0072a1
+		&:hover
+			color: #d02222
+			text-decoration: underline		
+.biography__years
+	color: #b2b4b8
+	font-size: 19px  					
+.biography__content
+	+clr
+.biography__photo
+	float: left
+	margin: 0 32px 32px 5px 
+	background: #fff
+	+box-shadow(0 0 5px rgba(150,173,188,.75))
+	+box
+	font-size: 0 
+	padding: 8px
+	img
+		width: 100%
+		height: 100%   
+.biography__text
+	float: left
+	width: 499px
+	p
+		margin-bottom: 24px
+.tabs
+	height: 45px
+	margin-bottom: 32px 
+	background: #eef6f8
+	+box
+	padding: 8px 8px 0
+	+clr
+	li
+		float: left
+		padding: 0 24px
+		text-align: center
+		a
+			display: inline-block
+			line-height: 37px
+			&:hover
+				text-decoration: none
+	li.is-active
+		background: #fff
+		a
+			font-weight: bold
+			color: #2e3847
+.work-filters
+	height: 45px
+	+box
+	padding: 8px 0
+	margin-bottom: 32px  
+	border-top: 1px solid #c6d6db
+	border-bottom: 1px solid #c6d6db
+	+clr
+.works__title
+	color: #2e3847
+	text-transform: uppercase
+	font-weight: bold
+	margin-bottom: 24px
+.works-list
+	margin-bottom: 40px 	
+.works-list__item
+	a
+		font-size: 16px 
+	span
+		font-size: 13px
+		color: #969ba3 	
+.sub-work-list
+	padding-left: 36px
+	margin-top: 36px  		

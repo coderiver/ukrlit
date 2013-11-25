@@ -16,10 +16,11 @@ body
 a img, fieldset 
 	border: none
 a
-	color: #2c2c2c 
+	color: #0072a1 
 	text-decoration: none
 	&:hover
-
+		color: #d02222
+		text-decoration: underline
 p
 	line-height: 1.2
 li 
@@ -56,6 +57,49 @@ table
 .h2
 	font: 31px 'Philosopher', sans-serif
 	color: #526871
+.h3
+	font-size: 29px 
+	color: #2e3847
+	font-weight: normal	
+// select
+.l-select
+	position: relative
+	float: right
+	margin-left: 24px 	
+.select__title
+	color: #abaeb2
+	font-size: 15px  						
+.select
+	position: relative
+	display: inline-block
+	width: 128px 
+	height: 27px 
+	+box
+	+no-sel
+	border: 1px solid #c6d6db
+	cursor: pointer
+	&:after
+		content: ""
+		position: absolute
+		top: 9px
+		right: 8px
+		+s(select)			
+.select__value
+	padding: 0 8px
+	line-height: 25px
+	color: #2e3847
+	font-size: 15px 
+.select__dropdown
+	position: absolute
+	top: 45px
+	right: 0px
+	width: 128px
+	li
+		color: #2e3847
+		cursor: pointer
+		&:hover
+			color: #d02222
+			text-decoration: none
 
 //header
 .header
@@ -107,6 +151,8 @@ table
 		font-size: 12px
 		color: #fff
 		text-transform: uppercase
+		&:hover
+			text-decoration: none
 	&:before
 		content: ""
 		position: absolute
@@ -144,6 +190,8 @@ table
 		display: inline-block
 		position: relative
 		color: #fff
+		&:hover
+			text-decoration: none
 		&:before
 			content: ""
 			position: absolute
@@ -165,6 +213,8 @@ table
 		+box
 		padding-left: 36px
 		position: relative
+		&:hover
+			text-decoration: none
 		&:before
 			content: ""
 			position: absolute
@@ -219,7 +269,9 @@ table
 		font-size: 14px
 		color: #526871
 		text-transform: uppercase
-		z-index: 2 
+		z-index: 2
+		&:hover
+			text-decoration: none 
 	&:hover
 		border-bottom: 5px solid #c6d6db
 		a
