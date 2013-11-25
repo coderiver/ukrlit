@@ -116,6 +116,68 @@
 .alphabet
 	clear: both
 	height: 32px
+	padding: 0 8px
+	margin-bottom: 18px  
 	background: #f7f7ee
 	@include box-shadow(inset 0 1px 0px #f1f3e2)
+	font-size: 0 
+	li
+		display: inline-block
+		a
+			display: inline-block
+			padding: 8px 4px 
+			text-transform: uppercase
+			font-size: 12px
+			color: #0072a1
+			&:hover
+				color: #d02222
+.l-list
+	position: relative
+	margin-bottom: 100px 
+	.list__border-none
+		position: absolute
+		bottom: 0px
+		width: 100% 
+		height: 1px
+		background: #fff  					
+.list__item
+	border-bottom: 1px solid #c6d6db
+	margin-bottom: 14px 				
+.author-list
+	li
+		margin-bottom: 15px 
+		+clr
+		a
+			font-size: 17px
+			color: #0072a1
+			&:hover
+				color: #d02222
+				text-decoration: underline				
+.author-list__left
+	float: left
+	p
+		font-size: 14px
+		color: #aabfc8 
+.author-list__right 
+	float: right
+.list__title
+	width: 29px
+	height: 29px
+	line-height: 29px
+	margin-bottom: 15px 
+	text-align: center 
+	background: #737a84
+	font-size: 18px
+	font-weight: bold
+	color: #fff
+.author-list__number
+	padding-right: 5px 
+	font-size: 17px
+	color: #526871
+.advert
+	clear: both
+	margin-bottom: 36px 
+	font-size: 12px
+	color: #aabfc8
+	text-align: center 	 	    
  					
