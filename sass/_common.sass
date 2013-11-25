@@ -100,7 +100,41 @@ table
 		&:hover
 			color: #d02222
 			text-decoration: none
-
+// search
+.search
+	float: right
+	margin: 9px 10px 0 0
+	font-size: 0  
+	input
+		width: 515px 
+		height: 34px
+		vertical-align: top
+		padding: 0 16px 
+		+box
+		border: 2px solid #c6d6db
+		font: 15px Calibri, sans-serif 
+		+placeholder(#c6d6db) 
+	button
+		vertical-align: top
+		padding: 0 20px 0 12px 
+		background: #e94444
+		font-size: 0 
+		color: #fff
+		text-transform: uppercase
+		font: 12px Calibri, sans-serif
+		+text-shadow(0 1px 0 #dd2525)
+		+trans(background 300ms)
+		i
+			display: inline-block
+			vertical-align: middle
+		span
+			margin-left: 10px 
+			font-size: 12px
+			line-height: 34px
+		&:hover
+			background: darken(#e94444, 5%)	  
+.ico-search
+	+s(search)
 //header
 .header
 	position: relative
@@ -252,13 +286,19 @@ table
 	clear: both
 	border: 1px solid #c6d6db
 	+box
-	background: #fff url(../img/sub-nav-bg.png) 98% 0 no-repeat 						   		 
+	background: #fff
+	+clr						   		 
 	ul
 		+clr
+		float: left
+.sub-nav_main
+	background: #fff url(../img/sub-nav-bg.png) 98% 0 no-repeat
+	.sub-nav__item
+		width: 139px  
 .sub-nav__item
 	position: relative
 	float: left
-	width: 139px
+	padding: 0 20px 
 	+box 
 	a
 		position: relative
