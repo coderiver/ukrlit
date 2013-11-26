@@ -22,7 +22,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .page { min-width: 960px; overflow-x: hidden; min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -205px; }
 
-.container { position: relative; width: 960px; margin: 64px auto 0; z-index: 10; }
+.container { position: relative; width: 960px; margin: 64px auto 0; }
 
 .push { height: 205px; clear: both; }
 
@@ -367,3 +367,35 @@ table { border-spacing: 0; border-collapse: collapse; }
 .dictionary-search .l-select .select__dropdown li:after { clear: both; }
 
 .btn-search { float: left; }
+
+.slovnik__topper { margin-bottom: 40px; }
+.slovnik__topper .h2 { display: block; padding-bottom: 10px; margin-bottom: 14px; background: url(../img/slovnik-bg.png) 0 100% repeat-x; }
+.slovnik__topper p { font-size: 11px; color: #2e3847; }
+
+.slovnik__letters { padding: 0px 1px 36px; border-bottom: 1px solid #c6d6db; margin-bottom: 16px; }
+
+.letters { height: 43px; }
+.letters:before, .letters:after { content: ""; display: table; }
+.letters:after { clear: both; }
+.letters:hover { -webkit-box-shadow: 0 0 5px rgba(150, 173, 188, 0.75); -moz-box-shadow: 0 0 5px rgba(150, 173, 188, 0.75); box-shadow: 0 0 5px rgba(150, 173, 188, 0.75); }
+.letters:hover .letters__title { border: none; }
+.letters:hover .letters__title p { background: #d62828; }
+
+.letters__title { float: left; width: 52px; -moz-box-sizing: border-box; box-sizing: border-box; padding: 7px 8px; border-right: 1px solid #c6d6db; }
+.letters__title p { width: 29px; height: 29px; line-height: 29px; background: #737a84; font-weight: bold; font-size: 18px; color: white; text-align: center; }
+
+.few-letters { width: 669px; height: 43px; float: left; -moz-box-sizing: border-box; box-sizing: border-box; padding: 8px 32px; }
+.few-letters ul:before, .few-letters ul:after { content: ""; display: table; }
+.few-letters ul:after { clear: both; }
+.few-letters ul li { float: left; }
+.few-letters ul li a { display: block; height: 29px; line-height: 29px; padding: 0 4px; text-align: center; }
+.few-letters ul li a:hover { color: white; text-decoration: none; background: #d62828; }
+
+.slovnik .socials { margin-bottom: 72px; }
+
+.about { margin-bottom: 100px; }
+
+.about__title { font-size: 25px; color: #2e3847; text-transform: uppercase; padding-bottom: 8px; margin-bottom: 8px; border-bottom: 1px solid #c6d6db; }
+
+.about__text { color: #2e3847; font-size: 12px; }
+.about__text p { margin-bottom: 16px; }
