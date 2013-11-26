@@ -94,7 +94,10 @@ table
 	top: 45px
 	right: 0px
 	width: 128px
+	background: #fff 
 	li
+		+box
+		padding: 0 8px 
 		color: #2e3847
 		cursor: pointer
 		&:hover
@@ -135,6 +138,48 @@ table
 			background: darken(#e94444, 5%)	  
 .ico-search
 	+s(search)
+// pagination
+.pagination
+	height: 32px
+	margin-bottom: 32px
+	padding: 0 12px   
+	background: #f7f7ee
+	+box-shadow(inset 0 1px 0px #f1f3e2)
+	+clr
+.pagination__prev
+	float: left
+	line-height: 32px 	
+.pagination__next
+	float: right
+	line-height: 32px 
+.pagination__pages
+	+clr
+	float: left
+	height: 32px 
+	li
+		float: left
+		padding: 0 11px
+		height: 32px
+		line-height: 32px 
+		a
+			line-height: 32px
+	li.is-active
+		background: #737a84
+		a
+			font-weight: bold
+			color: #fff 	
+.pagination__custom-page
+	float: left
+	height: 21px
+	width: 42px
+	margin: 5px 0 0 10px 
+	+box
+	padding: 0 4px
+	text-align: center 
+	border: 1px solid #c6d6db
+	background: #fff  		
+
+		
 //header
 .header
 	position: relative
