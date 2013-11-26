@@ -316,6 +316,59 @@
 	margin-bottom: 42px 
 	font-size: 15px 
 	color: #b8babd
+	
+// slovnik main
+.l-dictionary-search
+	clear: both
+	height: 55px
+	+box
+	padding-top: 13px  
+.dictionary-search
+	+clr
+	+box
+	background: white
+	input[type="text"]
+		float: left
+		width: 562px
+		height: 34px 
+		+box
+		padding: 0 12px
+		font: 15px Calibri, Arial, sans-serif
+		+placeholder(#c6d6db)
+		border: 2px solid #c6d6db
+		border-right: none 
+	.l-select
+		float: left
+		width: 298px
+		height: 34px 
+		margin: 0
+		+box
+		border: 2px solid #c6d6db
+		background: #eef6f8
+		.select
+			width: 100%
+			border: none
+			height: 30px
+			&:after
+				top: 12px  
+		.select__value
+			+clr
+			height: 30px 
+		.select__value-left
+			float: left
+			height: 30px
+			line-height: 30px 
+		.select__value-right
+			float: right
+			height: 30px
+			line-height: 30px  
+			padding-right: 32px
+		.select__dropdown
+			width: 100%
+			li
+				+clr		 	   
+.btn-search
+	float: left	
 		 		  	
 
 

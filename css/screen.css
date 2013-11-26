@@ -48,10 +48,11 @@ table { border-spacing: 0; border-collapse: collapse; }
 .search input.placeholder { color: #c6d6db; }
 .search input:-moz-placeholder { color: #c6d6db; }
 .search input::-webkit-input-placeholder { color: #c6d6db; }
-.search button { vertical-align: top; padding: 0 20px 0 12px; background: #e94444; font-size: 0; color: white; text-transform: uppercase; font: 12px Calibri, sans-serif; text-shadow: 0 1px 0 #dd2525; -moz-transition: background 300ms; -o-transition: background 300ms; -webkit-transition: background 300ms; -ms-transition: background 300ms; transition: background 300ms; }
-.search button i { display: inline-block; vertical-align: middle; }
-.search button span { margin-left: 10px; font-size: 12px; line-height: 34px; }
-.search button:hover { background: #e62d2d; }
+
+.btn-search { vertical-align: top; padding: 0 20px 0 12px; background: #e94444; font-size: 0; color: white; text-transform: uppercase; font: 12px Calibri, sans-serif; text-shadow: 0 1px 0 #dd2525; -moz-transition: background 300ms; -o-transition: background 300ms; -webkit-transition: background 300ms; -ms-transition: background 300ms; transition: background 300ms; }
+.btn-search i { display: inline-block; vertical-align: middle; }
+.btn-search span { margin-left: 10px; font-size: 12px; line-height: 34px; }
+.btn-search:hover { background: #e62d2d; }
 
 .ico-search { background: url('../img/icons-s1a9ecc4a2d.png') 0 -316px no-repeat; width: 14px; height: 14px; }
 
@@ -343,3 +344,26 @@ table { border-spacing: 0; border-collapse: collapse; }
 .work__share { margin-bottom: 32px; }
 
 .work__info { margin-bottom: 42px; font-size: 15px; color: #b8babd; }
+
+.l-dictionary-search { clear: both; height: 55px; -moz-box-sizing: border-box; box-sizing: border-box; padding-top: 13px; }
+
+.dictionary-search { -moz-box-sizing: border-box; box-sizing: border-box; background: white; }
+.dictionary-search:before, .dictionary-search:after { content: ""; display: table; }
+.dictionary-search:after { clear: both; }
+.dictionary-search input[type="text"] { float: left; width: 562px; height: 34px; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0 12px; font: 15px Calibri, Arial, sans-serif; border: 2px solid #c6d6db; border-right: none; }
+.dictionary-search input[type="text"].placeholder { color: #c6d6db; }
+.dictionary-search input[type="text"]:-moz-placeholder { color: #c6d6db; }
+.dictionary-search input[type="text"]::-webkit-input-placeholder { color: #c6d6db; }
+.dictionary-search .l-select { float: left; width: 298px; height: 34px; margin: 0; -moz-box-sizing: border-box; box-sizing: border-box; border: 2px solid #c6d6db; background: #eef6f8; }
+.dictionary-search .l-select .select { width: 100%; border: none; height: 30px; }
+.dictionary-search .l-select .select:after { top: 12px; }
+.dictionary-search .l-select .select__value { height: 30px; }
+.dictionary-search .l-select .select__value:before, .dictionary-search .l-select .select__value:after { content: ""; display: table; }
+.dictionary-search .l-select .select__value:after { clear: both; }
+.dictionary-search .l-select .select__value-left { float: left; height: 30px; line-height: 30px; }
+.dictionary-search .l-select .select__value-right { float: right; height: 30px; line-height: 30px; padding-right: 32px; }
+.dictionary-search .l-select .select__dropdown { width: 100%; }
+.dictionary-search .l-select .select__dropdown li:before, .dictionary-search .l-select .select__dropdown li:after { content: ""; display: table; }
+.dictionary-search .l-select .select__dropdown li:after { clear: both; }
+
+.btn-search { float: left; }
