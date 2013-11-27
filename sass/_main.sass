@@ -382,7 +382,9 @@
 .slovnik__letters
 	padding: 0px 1px 36px
 	border-bottom: 1px solid #c6d6db
-	margin-bottom: 16px  
+	margin-bottom: 16px
+.slovnik__letters_mod
+	border: none	  
 .letters
 	+clr
 	height: 43px
@@ -443,9 +445,51 @@
 	color: #2e3847
 	font-size: 12px 
 	p
-		margin-bottom: 16px 
-
-			 
+		margin-bottom: 16px
+.dictionary-sel
+	padding: 10px
+	background: #eef6f8
+	margin-bottom: 8px 
+	a
+		display: block
+		padding: 6px 10px  
+		+clr
+		.dictionary-sel__left
+			float: left
+			width: 70%  		 
+		.dictionary-sel__right
+			float: right
+			width: 30%
+			text-align: right 
+		&:hover
+			background: #d62828
+			color: #fff
+.keyword
+	padding-bottom: 10px
+	margin-bottom: 14px
+	text-transform: uppercase
+	color: #2e3847
+	font-size: 36px   
+	background: url(../img/slovnik-bg.png) 0 100% repeat-x
+.words-sel
+	background: #eef6f8
+	margin-bottom: 8px
+	padding: 16px   
+	ul
+		font-size: 0
+		li
+			display: inline-block
+			vertical-align: top	 		
+			a
+				display: block
+				height: 27px
+				line-height: 27px
+				font-size: 14px 
+				padding: 0 4px
+				&:hover
+					background: #d62828
+					color: #fff
+					text-decoration: none  
 
 
 		 		  	

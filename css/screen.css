@@ -374,6 +374,8 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .slovnik__letters { padding: 0px 1px 36px; border-bottom: 1px solid #c6d6db; margin-bottom: 16px; }
 
+.slovnik__letters_mod { border: none; }
+
 .letters { height: 43px; }
 .letters:before, .letters:after { content: ""; display: table; }
 .letters:after { clear: both; }
@@ -399,3 +401,19 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .about__text { color: #2e3847; font-size: 12px; }
 .about__text p { margin-bottom: 16px; }
+
+.dictionary-sel { padding: 10px; background: #eef6f8; margin-bottom: 8px; }
+.dictionary-sel a { display: block; padding: 6px 10px; }
+.dictionary-sel a:before, .dictionary-sel a:after { content: ""; display: table; }
+.dictionary-sel a:after { clear: both; }
+.dictionary-sel a .dictionary-sel__left { float: left; width: 70%; }
+.dictionary-sel a .dictionary-sel__right { float: right; width: 30%; text-align: right; }
+.dictionary-sel a:hover { background: #d62828; color: white; }
+
+.keyword { padding-bottom: 10px; margin-bottom: 14px; text-transform: uppercase; color: #2e3847; font-size: 36px; background: url(../img/slovnik-bg.png) 0 100% repeat-x; }
+
+.words-sel { background: #eef6f8; margin-bottom: 8px; padding: 16px; }
+.words-sel ul { font-size: 0; }
+.words-sel ul li { display: inline-block; vertical-align: top; }
+.words-sel ul li a { display: block; height: 27px; line-height: 27px; font-size: 14px; padding: 0 4px; }
+.words-sel ul li a:hover { background: #d62828; color: white; text-decoration: none; }
