@@ -424,3 +424,8 @@ table { border-spacing: 0; border-collapse: collapse; }
 .words-sel ul li { display: inline-block; vertical-align: top; }
 .words-sel ul li a { display: block; height: 27px; line-height: 27px; font-size: 14px; padding: 0 4px; }
 .words-sel ul li a:hover { background: #d62828; color: white; text-decoration: none; }
+
+.words-sel_long ul li { display: block; }
+
+.word__description { margin-bottom: 32px; padding-bottom: 16px; border-bottom: 1px solid #c6d6db; font: 12px Arial, sans-serif; }
+.word__description p { margin-bottom: 16px; }
