@@ -372,26 +372,26 @@ table { border-spacing: 0; border-collapse: collapse; }
 .slovnik__topper .h2 { display: block; padding-bottom: 10px; margin-bottom: 14px; background: url(../img/slovnik-bg.png) 0 100% repeat-x; }
 .slovnik__topper p { font-size: 11px; color: #2e3847; }
 
-.slovnik__letters { padding: 0px 1px 36px; border-bottom: 1px solid #c6d6db; margin-bottom: 16px; }
+.slovnik__letters:before, .slovnik__letters:after { content: ""; display: table; }
+.slovnik__letters:after { clear: both; }
 
-.slovnik__letters_mod { border: none; }
+.letters { float: left; width: 54px; margin: 4px; }
 
-.letters { height: 43px; }
-.letters:before, .letters:after { content: ""; display: table; }
-.letters:after { clear: both; }
-.letters:hover { -webkit-box-shadow: 0 0 5px rgba(150, 173, 188, 0.75); -moz-box-shadow: 0 0 5px rgba(150, 173, 188, 0.75); box-shadow: 0 0 5px rgba(150, 173, 188, 0.75); }
-.letters:hover .letters__title { border: none; }
-.letters:hover .letters__title p { background: #d62828; }
+.letters__item { position: relative; z-index: 2; font-size: 0; border-right: 1px solid #c6d6db; }
+.letters__item:hover .letter p { background: #d62828; }
+.letters__item:hover .letters__dropdown { display: block; -webkit-box-shadow: 0px 0px 3px 1px #c6d6db; -moz-box-shadow: 0px 0px 3px 1px #c6d6db; box-shadow: 0px 0px 3px 1px #c6d6db; }
 
-.letters__title { float: left; width: 52px; -moz-box-sizing: border-box; box-sizing: border-box; padding: 7px 8px; border-right: 1px solid #c6d6db; }
-.letters__title p { width: 29px; height: 29px; line-height: 29px; background: #737a84; font-weight: bold; font-size: 18px; color: white; text-align: center; }
+.letter { position: relative; display: inline-block; padding: 8px; cursor: pointer; z-index: 3; }
+.letter p { width: 29px; height: 29px; line-height: 29px; color: white; font-size: 18px; font-weight: bold; background: #737a84; text-align: center; }
 
-.few-letters { width: 669px; height: 43px; float: left; -moz-box-sizing: border-box; box-sizing: border-box; padding: 8px 32px; }
-.few-letters ul:before, .few-letters ul:after { content: ""; display: table; }
-.few-letters ul:after { clear: both; }
-.few-letters ul li { float: left; }
-.few-letters ul li a { display: block; height: 29px; line-height: 29px; padding: 0 4px; text-align: center; }
-.few-letters ul li a:hover { color: white; text-decoration: none; background: #d62828; }
+.letters__dropdown { display: none; position: absolute; top: 0; bottom: 0; left: 0; width: 0px; width: 722px; padding: 8px 32px 8px 80px; -moz-box-sizing: border-box; box-sizing: border-box; background: white; z-index: 2; }
+.letters__dropdown ul { font-size: 0; }
+.letters__dropdown ul li { display: inline-block; }
+.letters__dropdown ul li a { display: block; height: 29px; line-height: 29px; padding: 0 4px; font-size: 14px; }
+.letters__dropdown ul li a:hover { background: #d62828; color: white; text-decoration: none; }
+
+.word-list { float: left; width: 666px; padding: 0 32px; -moz-box-sizing: border-box; box-sizing: border-box; }
+.word-list li { margin-bottom: 8px; }
 
 .slovnik .socials { margin-bottom: 72px; }
 

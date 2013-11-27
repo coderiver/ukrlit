@@ -380,55 +380,79 @@
 		font-size: 11px
 		color: #2e3847
 .slovnik__letters
-	padding: 0px 1px 36px
-	border-bottom: 1px solid #c6d6db
-	margin-bottom: 16px
-.slovnik__letters_mod
-	border: none	  
-.letters
 	+clr
-	height: 43px
+.letters
+	float: left
+	width: 54px
+	margin: 4px   			
+.letters__item
+	position: relative
+	z-index: 2
+	font-size: 0
+	border-right: 1px solid #c6d6db
 	&:hover
-		+box-shadow(0 0 5px rgba(150,173,188,.75))
-		.letters__title
-			border: none
+		.letter
 			p
 				background: #d62828 
-.letters__title
-	float: left
-	width: 52px
-	+box
-	padding: 7px 8px 
-	border-right: 1px solid #c6d6db
+		.letters__dropdown
+			display: block
+			+box-shadow(0px 0px 3px 1px #c6d6db)		 		 
+.letter
+	position: relative
+	display: inline-block
+	padding: 8px
+	cursor: pointer
+	z-index: 3 
 	p
 		width: 29px
-		height: 29px 
-		line-height: 29px 
-		background: #737a84
-		font-weight: bold
-		font-size: 18px
+		height: 29px
+		line-height: 29px
 		color: #fff
-		text-align: center   
-.few-letters
-	width: 669px
-	height: 43px 
-	float: left
+		font-size: 18px
+		font-weight: bold  
+		background: #737a84
+		text-align: center	    
+.letters__dropdown
+	display: none
+	position: absolute
+	top: 0
+	bottom: 0
+	left: 0
+	width: 0px 
+	width: 722px
+	padding: 8px 32px 8px 80px
 	+box
-	padding: 8px 32px
+	background: #fff 
+	z-index: 2
 	ul
-		+clr
+		font-size: 0
 		li
-			float: left
+			display: inline-block
 			a
 				display: block
 				height: 29px
 				line-height: 29px
-				padding: 0 4px  
-				text-align: center
+				padding: 0 4px
+				font-size: 14px 
 				&:hover
-					color: #fff
-					text-decoration: none
 					background: #d62828
+					color: #fff
+					text-decoration: none  	
+.word-list
+	float: left
+	width: 666px
+	padding: 0 32px
+	+box
+	li
+		margin-bottom: 8px 
+
+
+
+
+
+
+
+
 .slovnik
 	.socials
 		margin-bottom: 72px
