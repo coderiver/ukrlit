@@ -381,6 +381,11 @@
 		color: #2e3847
 .slovnik__letters
 	+clr
+	padding-bottom: 36px
+	border-bottom: 1px solid #c6d6db
+	margin-bottom: 16px
+.slovnik__letters_mod
+	border: none	   
 .letters
 	float: left
 	width: 54px
@@ -443,8 +448,16 @@
 	width: 666px
 	padding: 0 32px
 	+box
+.word-list__inner
+	+clr 
 	li
-		margin-bottom: 8px 
+		float: left
+		height: 45px 
+		a
+			display: block
+			height: 45px
+			line-height: 45px
+			padding: 0 4px   		 
 
 
 
@@ -467,7 +480,7 @@
 	border-bottom: 1px solid #c6d6db
 .about__text
 	color: #2e3847
-	font-size: 12px 
+	font: 12px Arial, sans-serif
 	p
 		margin-bottom: 16px
 .dictionary-sel

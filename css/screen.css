@@ -372,8 +372,11 @@ table { border-spacing: 0; border-collapse: collapse; }
 .slovnik__topper .h2 { display: block; padding-bottom: 10px; margin-bottom: 14px; background: url(../img/slovnik-bg.png) 0 100% repeat-x; }
 .slovnik__topper p { font-size: 11px; color: #2e3847; }
 
+.slovnik__letters { padding-bottom: 36px; border-bottom: 1px solid #c6d6db; margin-bottom: 16px; }
 .slovnik__letters:before, .slovnik__letters:after { content: ""; display: table; }
 .slovnik__letters:after { clear: both; }
+
+.slovnik__letters_mod { border: none; }
 
 .letters { float: left; width: 54px; margin: 4px; }
 
@@ -391,7 +394,11 @@ table { border-spacing: 0; border-collapse: collapse; }
 .letters__dropdown ul li a:hover { background: #d62828; color: white; text-decoration: none; }
 
 .word-list { float: left; width: 666px; padding: 0 32px; -moz-box-sizing: border-box; box-sizing: border-box; }
-.word-list li { margin-bottom: 8px; }
+
+.word-list__inner:before, .word-list__inner:after { content: ""; display: table; }
+.word-list__inner:after { clear: both; }
+.word-list__inner li { float: left; height: 45px; }
+.word-list__inner li a { display: block; height: 45px; line-height: 45px; padding: 0 4px; }
 
 .slovnik .socials { margin-bottom: 72px; }
 
@@ -399,7 +406,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .about__title { font-size: 25px; color: #2e3847; text-transform: uppercase; padding-bottom: 8px; margin-bottom: 8px; border-bottom: 1px solid #c6d6db; }
 
-.about__text { color: #2e3847; font-size: 12px; }
+.about__text { color: #2e3847; font: 12px Arial, sans-serif; }
 .about__text p { margin-bottom: 16px; }
 
 .dictionary-sel { padding: 10px; background: #eef6f8; margin-bottom: 8px; }
