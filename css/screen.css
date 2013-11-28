@@ -20,9 +20,10 @@ button::-moz-focus-inner { padding: 0; border: 0; }
 
 table { border-spacing: 0; border-collapse: collapse; }
 
-.page { min-width: 960px; overflow-x: hidden; min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -205px; }
+.page { min-width: 1060px; overflow-x: hidden; min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -205px; }
 
 .container { position: relative; width: 960px; margin: 64px auto 0; }
+@media only screen and (max-width: 1177px) { .container { margin: 64px 0 0 100px; } }
 
 .push { height: 205px; clear: both; }
 
