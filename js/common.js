@@ -52,7 +52,8 @@ $(document).ready(function() {
     });
 
 	$(".scroll-top__inner").click(function(){
-		$(window).scrollTop('body');
-	});
+        $("html, body").animate({ scrollTop: 0 }, 400);
+        return false;
+        });
 
 });
