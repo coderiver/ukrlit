@@ -2,7 +2,7 @@
 
 html, body { height: 100%; }
 
-body { font-family: Calibri, Arial, Tahoma, sans-serif; font-weight: normal; font-size: 14px; line-height: 1.2; }
+body { min-width: 1060px; font-family: Calibri, Arial, Tahoma, sans-serif; font-weight: normal; font-size: 14px; line-height: 1.2; }
 
 a img, fieldset { border: none; }
 
@@ -222,7 +222,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .main { overflow: hidden; }
 
-.sidebar-right { float: right; width: 200px; margin: 0 0 32px 32px; }
+.sidebar-right { float: right; width: 199px; margin: 0 0 32px 32px; }
 
 .filter { padding: 12px 15px; margin-bottom: 8px; background: #eef6f8; }
 
