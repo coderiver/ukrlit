@@ -138,9 +138,9 @@ table { border-spacing: 0; border-collapse: collapse; }
 .logo__descr { text-transform: uppercase; font-size: 11px; font-weight: normal; color: #526871; }
 
 .logo_footer a:before { background: url('../img/icons-sda1ba12585.png') 0 -197px no-repeat; width: 24px; height: 25px; }
-.logo_footer .logo__name { font-size: 27px; color: white; }
+.logo_footer .logo__name { color: white; }
 .logo_footer .logo__name span { color: white; }
-.logo_footer .logo__descr { font-size: 10px; color: white; margin-top: 10px; padding: 0 12px 0 0px; }
+.logo_footer .logo__descr { color: white; }
 
 .header__banner { float: right; margin-top: 32px; }
 
