@@ -321,17 +321,16 @@ table
 	a
 		display: inline-block
 		position: relative
+		font-size: 12px 
 		color: #fff
 		&:hover
-			text-decoration: none
+			color: #fff
 		&:before
 			content: ""
 			position: absolute
 			top: 0
 			left: -20px
-			+s(lock)
-		&:hover
-			color: #86d3e9	
+			+s(lock)	
 .header__content
 	position: relative
 	z-index: 2
@@ -479,14 +478,14 @@ table
 	margin-bottom: 40px 
 	ul
 		+clr
-		li
-			float: left
-			margin-left: 24px
-			a
-				color: #fff
-				text-transform: uppercase
-				&:hover
-					color: #86d3e9 
+.footer-nav__item
+	float: left
+	margin-left: 24px
+	a
+		color: #fff
+		text-transform: uppercase
+		&:hover
+			color: #fff 
 .footer__ne
 	+clr
 .footer__socials
