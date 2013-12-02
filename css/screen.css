@@ -59,7 +59,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .scroll-top__inner { width: 100%; height: 100%; }
 
 .search { float: right; margin: 9px 10px 0 0; font-size: 0; }
-.search input { width: 515px; height: 34px; vertical-align: top; padding: 0 16px; -moz-box-sizing: border-box; box-sizing: border-box; border: 2px solid #c6d6db; font: 15px Calibri, sans-serif; }
+.search input { width: 500px; height: 34px; vertical-align: top; padding: 0 16px; -moz-box-sizing: border-box; box-sizing: border-box; border: 2px solid #c6d6db; font: 15px Calibri, sans-serif; }
 .search input.placeholder { color: #c6d6db; }
 .search input:-moz-placeholder { color: #c6d6db; }
 .search input::-webkit-input-placeholder { color: #c6d6db; }
@@ -296,9 +296,9 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .author-list__number { padding-right: 5px; font-size: 17px; color: #526871; }
 
-.advert { clear: both; margin-bottom: 36px; text-align: center; }
-.advert a { font-size: 12px; color: #aabfc8; }
-.advert a:hover { text-decoration: underline; }
+.partners { clear: both; margin-bottom: 36px; text-align: center; font-size: 12px; color: #aabfc8; }
+.partners a { font-size: 12px; color: #aabfc8; }
+.partners a:hover { text-decoration: underline; }
 
 .biography__topper, .work__topper { position: relative; padding-bottom: 10px; margin-bottom: 32px; background: url(../img/author-bg.png) 0% 100% repeat-x; }
 .biography__topper .h3, .work__topper .h3 { display: inline-block; }
@@ -388,8 +388,6 @@ table { border-spacing: 0; border-collapse: collapse; }
 .dictionary-search .l-select .select__dropdown { width: 100%; }
 .dictionary-search .l-select .select__dropdown li:before, .dictionary-search .l-select .select__dropdown li:after { content: ""; display: table; }
 .dictionary-search .l-select .select__dropdown li:after { clear: both; }
-
-.btn-search { float: left; }
 
 .slovnik__topper { margin-bottom: 40px; }
 .slovnik__topper .h2 { display: block; padding-bottom: 10px; margin-bottom: 14px; background: url(../img/slovnik-bg.png) 0 100% repeat-x; }
