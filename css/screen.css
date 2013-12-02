@@ -100,6 +100,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .header__inner:after, .footer__inner:after { clear: both; }
 @media only screen and (max-width: 1177px) { .header__inner, .footer__inner { margin: 0 0 0 100px; } }
 
+.footer__inner { height: 100%; background: url(../img/footer-bg.png) 37% 0 no-repeat; }
 @media only screen and (max-width: 1177px) { .footer__inner { padding-right: 10px; -moz-box-sizing: border-box; box-sizing: border-box; } }
 
 .nav { float: left; }
@@ -168,7 +169,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .sub-nav__item.is-active .fon1, .sub-nav__item.is-active .fon2 { display: block; }
 .sub-nav__item.is-active:after { content: ""; position: absolute; bottom: -3px; left: 0; right: 0; height: 3px; background: url(../img/triangle-red-small.png) 0 0 repeat-x; }
 
-.footer { position: relative; height: 205px; background: #737a84 url(../img/footer-bg.png) 45% 0 no-repeat; z-index: 10; }
+.footer { position: relative; height: 205px; background: #737a84; z-index: 10; }
 
 .footer__content:before, .footer__content:after { content: ""; display: table; }
 .footer__content:after { clear: both; }
@@ -200,7 +201,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .counter { float: right; }
 
-.footer__bot { margin-top: 32px; }
+.footer__bot { margin-top: 32px; padding: 0 15px; }
 .footer__bot:before, .footer__bot:after { content: ""; display: table; }
 .footer__bot:after { clear: both; }
 
