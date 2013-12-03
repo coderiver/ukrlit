@@ -2,8 +2,7 @@
 
 html, body { height: 100%; }
 
-body { min-width: 1060px; font-family: Calibri, Arial, Tahoma, sans-serif; font-weight: normal; font-size: 14px; line-height: 1.2; }
-@media only screen and (max-width: 1077px) { body { min-width: 999px; } }
+body { min-width: 999px; font-family: Calibri, Arial, Tahoma, sans-serif; font-weight: normal; font-size: 14px; line-height: 1.2; }
 
 a img, fieldset { border: none; }
 
