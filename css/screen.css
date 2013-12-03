@@ -222,7 +222,9 @@ table { border-spacing: 0; border-collapse: collapse; }
 .sidebar-left { float: left; width: 250px; margin: 0 32px 32px 0; }
 .sidebar-left .h2 { margin-bottom: 12px; }
 
-.main { overflow: hidden; }
+.wrapper { float: right; }
+
+.main { float: left; }
 
 .sidebar-right { float: right; width: 199px; margin: 0 0 32px 32px; }
 
@@ -388,6 +390,8 @@ table { border-spacing: 0; border-collapse: collapse; }
 .dictionary-search .l-select .select__dropdown { width: 100%; }
 .dictionary-search .l-select .select__dropdown li:before, .dictionary-search .l-select .select__dropdown li:after { content: ""; display: table; }
 .dictionary-search .l-select .select__dropdown li:after { clear: both; }
+
+.slovnik, .author, .work { width: 729px; }
 
 .slovnik__topper { margin-bottom: 40px; }
 .slovnik__topper .h2 { display: block; padding-bottom: 10px; margin-bottom: 14px; background: url(../img/slovnik-bg.png) 0 100% repeat-x; }
