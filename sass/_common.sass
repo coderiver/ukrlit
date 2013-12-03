@@ -1,7 +1,7 @@
 @import "base"
 * 
 	margin: 0
-	padding: 0 
+	padding: 0
 	-webkit-text-size-adjust: none
 html, body 
 	height: 100%
@@ -11,6 +11,8 @@ body
 	font-weight: normal 
 	font-size: 14px
 	line-height: 1.2
+	+rt(1060)
+		min-width: 999px
 	//-webkit-transform: translate3d(0,0,0);
 	//-webkit-backface-visibility: hidden;
 // resets
@@ -41,7 +43,6 @@ table
 	border-collapse: collapse
 // common styles
 .page
-	min-width: 1060px
 	overflow-x: hidden
 	min-height: 100%
 	height: auto !important
@@ -53,7 +54,9 @@ table
 	margin: 64px auto 0
 	+clr
 	+rt(1177)
-		margin: 64px 0 0 100px  
+		margin: 64px 0 0 100px
+	+rt(1060)
+		margin: 64px 0 0 39px 
 .push
 	height: 205px
 	clear: both
@@ -106,6 +109,7 @@ table
 		&:hover
 			color: #d02222
 			text-decoration: none
+
 // scroll-top
 .scroll-top
 	display: none
@@ -128,6 +132,8 @@ table
 	span
 		display: inline-block
 		color: #aabfc8
+	+rt(1060)
+		width: 39px 	
 	.arrow
 		position: relative
 		display: block
@@ -261,6 +267,8 @@ table
 	+clr
 	+rt(1177)
 		margin: 0 0 0 100px
+	+rt(1060)
+		margin: 0 0 0 39px	
 .footer__inner
 	height: 100% 
 	background: url(../img/footer-bg.png) 37% 0 no-repeat

@@ -29,8 +29,13 @@ $(document).ready(function() {
 		var top = ($(".container").offset().top - 67);
 		var bottom = $(".footer").offset().top;
 
-		$(".js-scroll-top").css('width', width);
-		
+		function scroll_width () {
+			if ($(window).width() > 1060){
+				$(".js-scroll-top").css('width', width);
+			}
+		}
+		scroll_width();
+
 		function scroll_show () {
 			if($(window).scrollTop() >= top){
 				$(".scroll-top").addClass('is-active');
