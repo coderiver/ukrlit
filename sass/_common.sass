@@ -155,14 +155,14 @@ table
 // search
 .search
 	float: right
+	width: 600px 
 	margin: 9px 10px 0 0
 	font-size: 0  
 	input
-		width: 500px 
-		height: 34px
+		width: 464px 
+		height: 30px
 		vertical-align: top
 		padding: 0 16px 
-		+box
 		border: 2px solid #c6d6db
 		font: 15px Calibri, sans-serif 
 		+placeholder(#c6d6db) 
@@ -268,7 +268,7 @@ table
 	+rt(1060)
 		margin: 0 0 0 39px	
 .footer__inner
-	height: 100% 
+	height: 205px 
 	background: url(../img/footer-bg.png) 37% 0 no-repeat
 	+rt(1177)
 		padding-right: 10px
@@ -354,14 +354,15 @@ table
 		+box
 		padding-left: 36px
 		position: relative
+		background: url(../img/logo.png) 0px 3px no-repeat 
 		&:hover
 			text-decoration: none
-		&:before
-			content: ""
-			position: absolute
-			top: 3px
-			left: -3px
-			+s(logo)  
+		// &:before
+		// 	content: ""
+		// 	position: absolute
+		// 	top: 3px
+		// 	left: -3px
+		// 	+s(logo)
 .logo__name
 	font: 34px 'Philosopher', sans-serif
 	color: #526871
@@ -395,6 +396,7 @@ table
 	ul
 		+clr
 		float: left
+		width: 338px 
 .sub-nav_main
 	background: #fff url(../img/sub-nav-bg.png) 98% 0 no-repeat 
 .sub-nav__item
@@ -456,6 +458,7 @@ table
 			background: #e53535
 			+background(linear-gradient(top, #bf1313 0%, #d02222 60%, #da2b2b 100%))
 .sub-nav__item.is-active
+	background: #e53535 
 	a
 		color: #fff
 	.fon1, .fon2
@@ -483,6 +486,7 @@ table
 	+clr
 .footer__right
 	float: right
+	width: 379px 
 	padding-top: 32px 	
 .footer-nav
 	margin-bottom: 40px 
@@ -496,7 +500,7 @@ table
 		text-transform: uppercase
 		&:hover
 			color: #fff 
-.footer__ne
+.footer__net
 	+clr
 .footer__socials
 	float: right
