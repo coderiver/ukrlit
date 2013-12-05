@@ -140,6 +140,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .logo__name { font: 34px "Philosopher", sans-serif; color: #526871; letter-spacing: -1px; }
 .logo__name span { color: #ea1c1c; }
+.logo__name span b { letter-spacing: 0; font-weight: normal; }
 
 .logo__descr { text-transform: uppercase; font-size: 11px; font-weight: normal; color: #526871; }
 
