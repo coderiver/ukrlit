@@ -231,9 +231,9 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .wrapper { width: 678px; float: right; }
 
-.main { float: left; width: 447px; }
+.main { float: left; width: 446px; }
 
-.sidebar-right { float: right; width: 199px; margin: 0 0 32px 0; }
+.sidebar-right { float: right; width: 200px; margin: 0 0 32px 0; }
 
 .filter { padding: 12px 15px; margin-bottom: 8px; background: #eef6f8; }
 
