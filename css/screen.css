@@ -403,7 +403,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .dictionary-search .l-select .select__dropdown li:before, .dictionary-search .l-select .select__dropdown li:after { content: ""; display: table; }
 .dictionary-search .l-select .select__dropdown li:after { clear: both; }
 
-.slovnik, .author, .work { width: 729px; }
+.slovnik, .author, .work { width: 728px; }
 
 .slovnik__topper { margin-bottom: 40px; }
 .slovnik__topper .h2 { display: block; padding-bottom: 10px; margin-bottom: 14px; background: url(../img/slovnik-bg.png) 0 100% repeat-x; }
