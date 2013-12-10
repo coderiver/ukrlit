@@ -394,13 +394,13 @@ table { border-spacing: 0; border-collapse: collapse; }
 .input-search:-moz-placeholder { color: #c6d6db; }
 .input-search::-webkit-input-placeholder { color: #c6d6db; }
 
-.auto-fit { position: relative; float: left; width: 562px; height: 34px; -moz-box-sizing: border-box; box-sizing: border-box; border: 2px solid #c6d6db; border-right: none; }
-.auto-fit input[type="text"] { width: 490px; height: 30px; padding: 0 12px; font: 15px Calibri, Arial, sans-serif; }
+.auto-fit { position: relative; float: left; width: 560px; height: 30px; border: 2px solid #c6d6db; border-right: none; vertical-align: top; }
+.auto-fit input[type="text"] { width: 490px; height: 20px; line-height: 30px; padding: 5px 12px; font: 15px Calibri, Arial, sans-serif; }
 .auto-fit input[type="text"].placeholder { color: #c6d6db; }
 .auto-fit input[type="text"]:-moz-placeholder { color: #c6d6db; }
 .auto-fit input[type="text"]::-webkit-input-placeholder { color: #c6d6db; }
 
-.auto-fit__counter { line-height: 32px; }
+.auto-fit__counter { display: inline-block; height: 30px; line-height: 30px; vertical-align: top; }
 
 .auto-fit__dropdown { display: none; position: absolute; top: 30px; left: -2px; width: 564px; -moz-box-sizing: border-box; box-sizing: border-box; border: 2px solid #c6d6db; border-top: 2px solid #eef6f8; background: white; }
 
@@ -441,17 +441,20 @@ table { border-spacing: 0; border-collapse: collapse; }
 .letters__item { position: relative; z-index: 2; font-size: 0; border-right: 1px solid #c6d6db; }
 .letters__item:hover .letter p { background: #d62828; }
 .letters__item:hover .letters__dropdown { display: block; -webkit-box-shadow: 0px 0px 3px 1px #c6d6db; -moz-box-shadow: 0px 0px 3px 1px #c6d6db; box-shadow: 0px 0px 3px 1px #c6d6db; }
+.letters__item:first-child .letter { padding: 0px 8px 8px; }
+.letters__item:first-child .letters__dropdown { top: -8px; }
 
 .letter { position: relative; display: inline-block; padding: 8px; cursor: pointer; z-index: 3; }
 .letter p { width: 29px; height: 29px; line-height: 29px; color: white; font-size: 18px; font-weight: bold; background: #737a84; text-align: center; }
 
-.letters__dropdown { display: none; position: absolute; top: 0; bottom: 0; left: 0; width: 610px; padding: 8px 32px 8px 80px; background: white; z-index: 2; }
+.letters__dropdown { display: none; position: absolute; top: 0; bottom: 0; left: 0; height: 45px; -moz-box-sizing: border-box; box-sizing: border-box; width: 610px; padding: 8px 32px 8px 80px; background: white; z-index: 2; }
 .letters__dropdown ul { font-size: 0; }
 .letters__dropdown ul li { display: inline-block; }
 .letters__dropdown ul li a { display: block; height: 29px; line-height: 29px; padding: 0 4px; font-size: 14px; }
 .letters__dropdown ul li a:hover { background: #d62828; color: white; text-decoration: none; }
 
 .word-list { float: left; width: 602px; padding: 0 32px; }
+.word-list .word-list__item { margin-bottom: 3px; }
 
 .word-list__inner { *zoom: 1; }
 .word-list__inner:before, .word-list__inner:after { content: ""; display: table; }
@@ -473,12 +476,13 @@ table { border-spacing: 0; border-collapse: collapse; }
 .dictionary-sel a:before, .dictionary-sel a:after { content: ""; display: table; }
 .dictionary-sel a:after { clear: both; }
 .dictionary-sel a .dictionary-sel__left { float: left; width: 70%; }
-.dictionary-sel a .dictionary-sel__right { float: right; width: 30%; text-align: right; }
+.dictionary-sel a .dictionary-sel__right { float: right; width: 30%; text-align: right; font-size: 12px; color: #526871; }
 .dictionary-sel a:hover { background: #d62828; color: white; }
+.dictionary-sel a:hover .dictionary-sel__right { color: white; }
 
 .keyword { padding-bottom: 10px; margin-bottom: 14px; text-transform: uppercase; color: #2e3847; font-size: 36px; background: url(../img/slovnik-bg.png) 0 100% repeat-x; }
 
-.words-sel { background: #eef6f8; margin-bottom: 8px; padding: 16px; }
+.words-sel { background: #eef6f8; margin-bottom: 8px; padding: 16px 10px; }
 .words-sel ul { font-size: 0; }
 .words-sel ul li { display: inline-block; vertical-align: top; }
 .words-sel ul li a { display: block; height: 27px; line-height: 27px; font-size: 14px; padding: 0 4px; }
