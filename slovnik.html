@@ -12,8 +12,8 @@
 </head>
 <body>
 <!-- BEGIN .wrap -->
-<section class="page">
-	<header class="header">
+<div class="page">
+	<div class="header">
 		<div class="header__topper">
 			<div class="header__inner">
 				<nav class="nav">
@@ -44,7 +44,23 @@
 				</div>
 				<div class="l-dictionary-search">
 					<div class="dictionary-search">
-						<input type="text" placeholder="Пошук слів та словосполучень">
+						<div class="auto-fit">
+							<input type="text" placeholder="Пошук слів та словосполучень">
+							<span class="auto-fit__counter">345</span>
+							<ul class="auto-fit__dropdown" style="display: block;">
+								<li class="auto-fit__item">перезва</li>
+								<li class="auto-fit__item">перезва</li>
+								<li class="auto-fit__item">перезва</li>
+								<li class="auto-fit__item">перезва</li>
+								<li class="auto-fit__item">перезва</li>
+								<li class="auto-fit__item">перезва</li>
+								<li class="auto-fit__item">перезва</li>
+								<li class="auto-fit__item">перезва</li>
+								<li class="auto-fit__item">перезва</li>
+								<li class="auto-fit__item">перезва</li>
+								<li class="auto-fit__item">перезва</li>
+							</ul>
+						</div>
 						<div class="l-select">
 							<div class="select">
 								<input type="hidden">
@@ -55,27 +71,25 @@
 							</div>
 							<ul class="select__dropdown" style="display: none;">
 								<li data-attr="1">
-									<span class="select__value-left">за жанрами</span>
+									<div class="select__value-left">
+										<p class="select__value-title">СУМ-11</p>
+										<p class="select__value-text">Словник української мови: В 11 т. / АН УРСР. Інститут мовознавства; за ред. І. К. Білодіда. — Київ: Наукова думка, 1970—1980.</p>
+									</div>
 									<span class="select__value-right">134 666</span>
 								</li>
 								<li data-attr="2">
-									<span class="select__value-left">за жанрами</span>
-									<span class="select__value-right">345 455</span></li>
+									<div class="select__value-left">
+										<p class="select__value-title">Cловарь Грінченка</p>
+										<p class="select__value-text">Грінченко Б. Д. Словарь <i>української мови</i>, т. 1-4. Київ, 1907-09.</p>
+									</div>
+									<span class="select__value-right">34 666</span>
+								</li>
 								<li data-attr="3">
-									<span class="select__value-left">за жанрами</span>
-									<span class="select__value-right">1 096</span>
-								</li>
-								<li data-attr="4">
-									<span class="select__value-left">за жанрами</span>
-									<span class="select__value-right">13 096</span>
-								</li>
-								<li data-attr="5">
-									<span class="select__value-left">за жанрами</span>
-									<span class="select__value-right">77 595</span>
-								</li>
-								<li data-attr="6">
-									<span class="select__value-left">за жанрами</span>
-									<span class="select__value-right">56 044</span>
+									<div class="select__value-left">
+										<p class="select__value-title">Знаки етнокультури Жайворонка</p>
+										<p class="select__value-text">Жайворонок В. В. Знаки української етнокультури: Словник-довідник. — К.: Довіра, 2006.</p>
+									</div>
+									<span class="select__value-right">6 462</span>
 								</li>
 							</ul>
 						</div>
@@ -84,7 +98,7 @@
 				</div>
 			</div>	
 		</div>
-	</header>
+	</div>
 	<div class="container">
 		<div class="main slovnik">
 			<div class="slovnik__topper">
@@ -478,7 +492,7 @@
 		</div>	
 	</div>
 	<div class="push"></div>
-</section>
+</div>
 <!-- END .wrap -->
 <!-- BEGIN .footer -->
 <div class="footer">
