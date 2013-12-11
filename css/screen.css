@@ -322,7 +322,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .biography__topper .all-authors, .work__topper .all-authors { position: absolute; top: 14px; right: 0px; color: #0072a1; }
 .biography__topper .all-authors:hover, .work__topper .all-authors:hover { color: #d02222; text-decoration: underline; }
 
-.biography__years { color: #b2b4b8; font-size: 19px; }
+.biography__years { position: relative; top: -1px; color: #b2b4b8; font-size: 19px; }
 
 .biography__content { *zoom: 1; }
 .biography__content:before, .biography__content:after { content: ""; display: table; }
