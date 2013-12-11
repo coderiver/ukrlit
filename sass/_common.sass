@@ -328,23 +328,22 @@ table
 		font-size: 12px
 		color: #fff
 		text-transform: uppercase
+		background: url(../img/nav-border.png) 0px 9px no-repeat 
 		&:hover
 			text-decoration: none
-	&:before
-		content: ""
-		position: absolute
-		top: 8px
-		left: 0px
-		+s(nav-border)
 	&:first-child
-		&:before
-			display: none		
+		a
+			background: none 		
 	&:hover
 		a
 			color: #86d3e9
 .nav__item.is-active
+	position: relative
+	z-index: 2
 	background: #FFF
-	+box-shadow(3px 0 0 #fff)
+	//+box-shadow(3px 0 0 #fff)
+	border-right: 3px solid #fff
+	margin-right: -3px
 	a
 		color: #526871
 		padding: 6px 17px 0 20px

@@ -119,13 +119,12 @@ table { border-spacing: 0; border-collapse: collapse; }
 .nav ul:after { clear: both; }
 
 .nav__item { float: left; position: relative; height: 30px; }
-.nav__item a { display: block; height: 30px; padding: 6px 20px 0; -moz-box-sizing: border-box; box-sizing: border-box; font-size: 12px; color: white; text-transform: uppercase; }
+.nav__item a { display: block; height: 30px; padding: 6px 20px 0; -moz-box-sizing: border-box; box-sizing: border-box; font-size: 12px; color: white; text-transform: uppercase; background: url(../img/nav-border.png) 0px 9px no-repeat; }
 .nav__item a:hover { text-decoration: none; }
-.nav__item:before { content: ""; position: absolute; top: 8px; left: 0px; background: url('../img/icons-sda1ba12585.png') 0 -428px no-repeat; width: 3px; height: 6px; }
-.nav__item:first-child:before { display: none; }
+.nav__item:first-child a { background: none; }
 .nav__item:hover a { color: #86d3e9; }
 
-.nav__item.is-active { background: white; -webkit-box-shadow: 3px 0 0 white; -moz-box-shadow: 3px 0 0 white; box-shadow: 3px 0 0 white; }
+.nav__item.is-active { position: relative; z-index: 2; background: white; border-right: 3px solid white; margin-right: -3px; }
 .nav__item.is-active a { color: #526871; padding: 6px 17px 0 20px; }
 .nav__item.is-active a span { position: relative; }
 .nav__item.is-active a span:after { content: ""; position: absolute; left: 0; right: 0; bottom: -5px; height: 2px; background: url(../img/menu-border-img.png) 0 0 repeat-x; }
