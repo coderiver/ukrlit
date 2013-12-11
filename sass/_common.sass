@@ -228,28 +228,38 @@ table
 .pagination__pages
 	+clr
 	float: left
-	height: 32px 
+	height: 32px
+	margin-left: 65px  
 	li
 		float: left
-		padding: 0 11px
-		height: 32px
-		line-height: 32px 
+		line-height: 32px
+		min-width: 29px
+		text-align: center 
 		a
+			display: block
+			height: 32px
+			padding: 0 11px 
 			line-height: 32px
+		&:hover
+			a
+				font-weight: bold
+				background: #737a84
+				color: #fff
+				text-decoration: none	
 	li.is-active
-		background: #737a84
 		a
 			font-weight: bold
-			color: #fff 	
+			color: #fff
+			background: #737a84 	
 .pagination__custom-page
 	float: left
-	height: 21px
-	width: 42px
+	height: 17px
+	width: 34px
 	margin: 5px 0 0 10px 
-	+box
-	padding: 0 4px
+	padding: 2px 4px
 	text-align: center 
 	border: 1px solid #c6d6db
+	font-family: Calibri, Arial, Tahoma, sans-serif
 	background: #fff  		
 
 		
