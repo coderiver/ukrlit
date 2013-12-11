@@ -82,11 +82,13 @@ table { border-spacing: 0; border-collapse: collapse; }
 .pagination:before, .pagination:after { content: ""; display: table; }
 .pagination:after { clear: both; }
 
-.pagination__prev { float: left; line-height: 32px; }
+.pagination__prev { float: left; line-height: 32px; padding: 0 5px; }
+.pagination__prev:hover { background: #737a84; color: white; text-decoration: none; }
 
-.pagination__next { float: right; line-height: 32px; }
+.pagination__next { float: right; line-height: 32px; padding: 0 5px; }
+.pagination__next:hover { background: #737a84; color: white; text-decoration: none; }
 
-.pagination__pages { *zoom: 1; float: left; height: 32px; margin-left: 65px; }
+.pagination__pages { *zoom: 1; float: left; height: 32px; margin-left: 60px; }
 .pagination__pages:before, .pagination__pages:after { content: ""; display: table; }
 .pagination__pages:after { clear: both; }
 .pagination__pages li { float: left; line-height: 32px; min-width: 29px; text-align: center; }
@@ -382,11 +384,11 @@ table { border-spacing: 0; border-collapse: collapse; }
 .work__text { font-family: Calibri, Arial, Tahoma, sans-serif; }
 .work__text p { margin-bottom: 24px; }
 
-.tnr-switch .work__text { font-family: Times New Roman, Calibri, Arial, sans-serif; }
+.tnr-switch .tvir { font-family: Times New Roman, Calibri, Arial, sans-serif; }
 
-.arial-switch .work__text { font-family: Arial, Times New Roman, Calibri, sans-serif; }
+.arial-switch .tvir { font-family: Arial, Times New Roman, Calibri, sans-serif; }
 
-.calibri-switch .work__text { font-family: Calibri, Arial, Times New Roman, sans-serif; }
+.calibri-switch .tvir { font-family: Calibri, Arial, Times New Roman, sans-serif; }
 
 .work__share { margin-bottom: 32px; }
 

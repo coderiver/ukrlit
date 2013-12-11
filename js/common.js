@@ -38,21 +38,21 @@ $(document).ready(function() {
 	$(".font-size__small").click(function(){
 		$(".font-size a").removeClass('is-active');
 		$(this).addClass('is-active');
-		$('.work__text').css('font-size', '12px');
+		$('.tvir').css('font-size', '12px');
 		return false;
 	});
 
 	$(".font-size__normal").click(function(){
 		$(".font-size a").removeClass('is-active');
 		$(this).addClass('is-active');
-		$('.work__text').css('font-size', '14px');
+		$('.tvir').css('font-size', '14px');
 		return false;
 	});
 
 	$(".font-size__big").click(function(){
 		$(".font-size a").removeClass('is-active');
 		$(this).addClass('is-active');
-		$('.work__text').css('font-size', '16px');
+		$('.tvir').css('font-size', '16px');
 		return false;
 	});
 	// scroll-top
