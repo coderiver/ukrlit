@@ -16,8 +16,8 @@ $(document).ready(function() {
 	$(".select__dropdown li").on("click", function(event){
 		var select = $(this).html();
 		var data_attr = $(this).attr('data-attr');
-		$(this).parents('.l-select').find('.select__value').html(select);
-		$(this).parents('.l-select').find('input').val(data_attr);
+		$(this).parent().parent().find('.select__value').html(select);
+		$(this).parent().parent().find('input').val(data_attr);
 		$(this).parent().slideUp('fast');
 	});
 

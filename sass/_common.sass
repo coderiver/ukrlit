@@ -66,16 +66,28 @@ table
 	color: #2e3847
 	font-weight: normal	
 // select
-.l-select
+.select-wrap
 	position: relative
 	float: right
-	margin-left: 24px 	
+	+clr
+	margin-left: 24px
+	font-size: 0
+	vertical-align: middle 
+	.select__dropdown
+		border: 1px solid #c6d6db
+		border-top: 1px solid #EBEDEE
+		width: 126px
+		top: 26px
+		right: 0 	
 .select__title
+	float: left
 	color: #abaeb2
-	font-size: 15px  						
+	margin-right: 9px 
+	font-size: 15px
+	line-height: 27px   						
 .select
 	position: relative
-	display: inline-block
+	float: left
 	width: 128px 
 	height: 27px 
 	+box
@@ -93,6 +105,9 @@ table
 	line-height: 25px
 	color: #2e3847
 	font-size: 15px
+	white-space: nowrap
+	text-overflow: ellipsis
+	overflow: hidden
 	.select__value-title
 		line-height: 30px 
 		white-space: nowrap
@@ -112,6 +127,7 @@ table
 		+box
 		padding: 5px 10px 
 		color: #2e3847
+		font-size: 14px 
 		cursor: pointer
 		&:hover
 			background: #eef6f8 
@@ -167,9 +183,9 @@ table
 	font-size: 0  
 	input
 		width: 464px 
-		height: 30px
+		height: 20px
 		vertical-align: top
-		padding: 0 16px 
+		padding: 5px 16px 
 		border: 2px solid #c6d6db
 		font: 15px Calibri, sans-serif 
 		+placeholder(#c6d6db) 
