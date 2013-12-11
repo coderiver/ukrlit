@@ -19,8 +19,42 @@ $(document).ready(function() {
 		$(this).parent().parent().find('.select__value').html(select);
 		$(this).parent().parent().find('input').val(data_attr);
 		$(this).parent().slideUp('fast');
+		if($(this).hasClass('tnr')){
+			$('body').removeClass('arial-switch').removeClass('calibri-switch');
+			$('body').addClass('tnr-switch');
+		}
+		if($(this).hasClass('arial')){
+			$('body').removeClass('tnr-switch').removeClass('calibri-switch');
+			$('body').addClass('arial-switch');
+		}
+		if($(this).hasClass('calibri')){
+			$('body').removeClass('tnr-switch').removeClass('arial-switch');
+			$('body').addClass('calibri-switch');
+		}
 	});
 
+	//switch font-size
+
+	$(".font-size__small").click(function(){
+		$(".font-size a").removeClass('is-active');
+		$(this).addClass('is-active');
+		$('.work__text').css('font-size', '12px');
+		return false;
+	});
+
+	$(".font-size__normal").click(function(){
+		$(".font-size a").removeClass('is-active');
+		$(this).addClass('is-active');
+		$('.work__text').css('font-size', '14px');
+		return false;
+	});
+
+	$(".font-size__big").click(function(){
+		$(".font-size a").removeClass('is-active');
+		$(this).addClass('is-active');
+		$('.work__text').css('font-size', '16px');
+		return false;
+	});
 	// scroll-top
 
 
