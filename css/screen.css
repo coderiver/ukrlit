@@ -57,11 +57,11 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .scroll-top.is-active { display: block; }
 
-.scroll-top__bg { width: 100px; height: 100%; text-align: center; padding-top: 25px; -moz-transition: background 300ms; -o-transition: background 300ms; -webkit-transition: background 300ms; -ms-transition: background 300ms; transition: background 300ms; }
+.scroll-top__bg { width: 100px; height: 100%; text-align: center; padding-top: 25px; -moz-transition: background 200ms; -o-transition: background 200ms; -webkit-transition: background 200ms; -ms-transition: background 200ms; transition: background 200ms; }
 .scroll-top__bg span { display: inline-block; color: #aabfc8; }
 @media only screen and (max-width: 1077px) { .scroll-top__bg { width: 39px; } }
 .scroll-top__bg .arrow { position: relative; display: block; width: 37px; height: 37px; margin: 0 auto 10px; -moz-box-sizing: border-box; box-sizing: border-box; background: white; border: 1px solid #dddedf; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; }
-.scroll-top__bg .arrow:after { content: ""; position: absolute; top: 12px; left: 8px; background: url('../img/icons-sda1ba12585.png') 0 -356px no-repeat; width: 17px; height: 9px; }
+.scroll-top__bg .arrow:after { content: ""; position: absolute; top: 12px; left: 9px; background: url('../img/icons-sda1ba12585.png') 0 -356px no-repeat; width: 17px; height: 9px; }
 
 .scroll-top__inner { width: 100%; height: 100%; }
 
