@@ -155,7 +155,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .header__banner { float: right; margin-top: 32px; }
 
-.sub-nav { clear: both; border: 1px solid #c6d6db; -moz-box-sizing: border-box; box-sizing: border-box; background: white; *zoom: 1; }
+.sub-nav { position: relative; top: 5px; clear: both; border: 1px solid #c6d6db; -moz-box-sizing: border-box; box-sizing: border-box; background: white; *zoom: 1; }
 .sub-nav:before, .sub-nav:after { content: ""; display: table; }
 .sub-nav:after { clear: both; }
 .sub-nav ul { *zoom: 1; float: left; width: 338px; }
