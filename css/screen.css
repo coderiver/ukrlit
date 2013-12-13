@@ -510,6 +510,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .word__description p { margin-bottom: 16px; }
 
 .ie8 .logo__descr { font-size: 9px; }
+.ie8 .letters__item:hover .letters__dropdown { border: 1px solid #cccccc; }
 
 /* IE 7 Only */
 *:first-child + html .alphabet li { display: inline; }
