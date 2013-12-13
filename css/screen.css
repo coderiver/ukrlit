@@ -197,8 +197,8 @@ table { border-spacing: 0; border-collapse: collapse; }
 .footer-nav ul:before, .footer-nav ul:after { content: ""; display: table; }
 .footer-nav ul:after { clear: both; }
 
-.footer-nav__item { float: left; margin-left: 24px; }
-.footer-nav__item:first-child { margin-left: 0; }
+.footer-nav__item { float: right; margin-right: 18px; }
+.footer-nav__item:first-child { margin-right: 0; }
 .footer-nav__item a { color: white; text-transform: uppercase; }
 .footer-nav__item a:hover { color: white; }
 
