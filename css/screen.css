@@ -509,6 +509,8 @@ table { border-spacing: 0; border-collapse: collapse; }
 .word__description { margin-bottom: 32px; padding-bottom: 16px; border-bottom: 1px solid #c6d6db; font: 12px Arial, sans-serif; }
 .word__description p { margin-bottom: 16px; }
 
+.ie8 .logo__descr { font-size: 9px; }
+
 /* IE 7 Only */
 *:first-child + html .alphabet li { display: inline; }
 *:first-child + html .sub-nav__item a:hover { height: 48px; }
