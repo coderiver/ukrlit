@@ -225,7 +225,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .footer__bot:before, .footer__bot:after { content: ""; display: table; }
 .footer__bot:after { clear: both; }
 
-.copyrights { float: left; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; color: white; font-family: "Arial", sans-serif; font-size: 10px; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7); }
+.copyrights { float: left; margin-top: 9px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; color: white; font-family: "Arial", sans-serif; font-size: 10px; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7); }
 
 .footer__bot span { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; color: white; font-family: "Arial", sans-serif; font-size: 10px; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.7); vertical-align: middle; }
 .footer__bot i { display: inline-block; margin-left: 10px; vertical-align: middle; }
