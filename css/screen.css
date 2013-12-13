@@ -160,13 +160,13 @@ table { border-spacing: 0; border-collapse: collapse; }
 .sub-nav { position: relative; top: 5px; clear: both; border: 1px solid #c6d6db; -moz-box-sizing: border-box; box-sizing: border-box; background: white; *zoom: 1; }
 .sub-nav:before, .sub-nav:after { content: ""; display: table; }
 .sub-nav:after { clear: both; }
-.sub-nav ul { *zoom: 1; float: left; width: 360px; }
+.sub-nav ul { *zoom: 1; float: left; width: 338px; }
 .sub-nav ul:before, .sub-nav ul:after { content: ""; display: table; }
 .sub-nav ul:after { clear: both; }
 
 .sub-nav_main { background: white url(../img/sub-nav-bg.png) 98% 0 no-repeat; }
 
-.sub-nav__item { position: relative; float: left; padding: 0 8px; }
+.sub-nav__item { position: relative; float: left; text-align: center; padding: 0 8px; }
 .sub-nav__item a { position: relative; display: block; height: 53px; padding: 0 22px; line-height: 53px; text-align: center; font-size: 14px; color: #526871; -moz-box-sizing: border-box; box-sizing: border-box; text-transform: uppercase; z-index: 2; }
 .sub-nav__item a:hover { text-decoration: none; border-bottom: 5px solid #c6d6db; }
 .sub-nav__item .fon1 { display: none; position: absolute; top: 0; bottom: 50%; left: 0; right: 50%; background: #e53535; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e83838), color-stop(100%, #e13131)); background: -webkit-linear-gradient(top, #e83838 0%, #e13131 100%); background: -moz-linear-gradient(top, #e83838 0%, #e13131 100%); background: -o-linear-gradient(top, #e83838 0%, #e13131 100%); background: linear-gradient(top, #e83838 0%, #e13131 100%); z-index: 1; }
@@ -179,6 +179,12 @@ table { border-spacing: 0; border-collapse: collapse; }
 .sub-nav__item.is-active .fon1, .sub-nav__item.is-active .fon2 { display: block; }
 .sub-nav__item.is-active:after { content: ""; position: absolute; bottom: -3px; left: 0; right: 0; height: 3px; background: url(../img/triangle-red-small.png) 0 0 repeat-x; }
 .sub-nav__item.is-active:hover a { border-bottom: none; }
+
+.sub-nav__main { width: 102px; }
+
+.sub-nav__tvir { width: 84px; }
+
+.sub-nav__biography { width: 104px; }
 
 .footer { position: relative; height: 205px; background: #737a84; z-index: 10; }
 
@@ -482,7 +488,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .about__text { color: #2e3847; font: 12px Arial, sans-serif; }
 .about__text p { margin-bottom: 16px; }
 
-.dictionary-sel { width: 179px; padding: 10px; background: #eef6f8; margin-bottom: 8px; }
+.dictionary-sel { width: 180px; padding: 10px; background: #eef6f8; margin-bottom: 8px; }
 .dictionary-sel a { display: block; padding: 6px 10px; *zoom: 1; }
 .dictionary-sel a:before, .dictionary-sel a:after { content: ""; display: table; }
 .dictionary-sel a:after { clear: both; }
