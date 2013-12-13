@@ -190,6 +190,7 @@ table
 		font: 15px Calibri, sans-serif 
 		+placeholder(#c6d6db) 
 .btn-search
+	position: relative
 	width: 100px
 	height: 34px  
 	vertical-align: top
@@ -201,17 +202,19 @@ table
 	font: 12px Calibri, sans-serif
 	+text-shadow(0 1px 0 #dd2525)
 	+trans(background 300ms)
-	i
-		display: inline-block
-		vertical-align: middle
+	.ico-search
+		position: absolute
+		top: 10px
+		left: 13px
+		+s(search)
 	span
-		margin-left: 10px 
+		margin-left: 20px 
 		font-size: 12px
 		line-height: 34px
 	&:hover
 		background: darken(#e94444, 5%)	  
-.ico-search
-	+s(search)
+
+	
 
 // pagination
 .pagination
