@@ -64,10 +64,14 @@ $(document).ready(function() {
 		var bottom = $(".footer").offset().top;
 
 		function scroll_width () {
+			if($(window).width() < 1177){
+				$(".container").css('margin-left', 100);
+			}
 			if ($(window).width() > 1060){
 				$(".js-scroll-top").css('width', width);
 			}
 			else {
+				$(".container").css('margin-left', 39);
 				$(".js-scroll-top").css('width', 39);
 			}
 		}
