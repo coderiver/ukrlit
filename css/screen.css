@@ -138,9 +138,11 @@ table { border-spacing: 0; border-collapse: collapse; }
 .header__content { position: relative; z-index: 2; margin-bottom: -28px; }
 .header__content .header__inner { background: url(../img/header-bg.png) 26% 0% no-repeat; padding-bottom: 13px; }
 
-.logo { float: left; margin: 40px 0 24px 15px; width: 240px; }
+.logo { float: left; margin: 40px 0 22px 15px; width: 240px; }
 .logo a { display: block; -moz-box-sizing: border-box; box-sizing: border-box; padding-left: 36px; position: relative; background: url(../img/logo.png) 0px 3px no-repeat; }
 .logo a:hover { text-decoration: none; }
+
+.logo_slovnik { margin: 40px 0 24px 15px; }
 
 .logo__slovnik { position: absolute; top: -15px; right: 28px; font: 18px "Philosopher", sans-serif; color: #870014; }
 
