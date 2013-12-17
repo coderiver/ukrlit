@@ -8,7 +8,7 @@ $(document).ready(function() {
     	$(".select__dropdown").slideUp('fast');
     });
 
-	$(".select").click(function(){
+	$(".select").click(function(event){
       	$(this).parent().find(".select__dropdown").slideToggle('fast');
       	event.stopPropagation();
     });
