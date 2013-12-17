@@ -73,6 +73,7 @@ $(document).ready(function() {
 			else {
 				$(".container").css('margin-left', 39);
 				$(".js-scroll-top").css('width', 39);
+				$(".scroll-top__bg").css('width', 39);
 			}
 		}
 		scroll_width();
