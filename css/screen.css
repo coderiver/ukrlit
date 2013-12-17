@@ -335,7 +335,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .biography__content:after { clear: both; }
 
 .biography__photo { float: left; margin: 0 32px 32px 5px; background: white; -webkit-box-shadow: 0 0 5px rgba(150, 173, 188, 0.75); -moz-box-shadow: 0 0 5px rgba(150, 173, 188, 0.75); box-shadow: 0 0 5px rgba(150, 173, 188, 0.75); -moz-box-sizing: border-box; box-sizing: border-box; font-size: 0; padding: 8px; }
-.biography__photo img { width: 100%; height: 100%; }
+.biography__photo img { width: 100%; height: auto; }
 
 .biography__text { float: left; width: 499px; }
 .biography__text p { margin-bottom: 24px; }
