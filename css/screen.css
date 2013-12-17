@@ -25,6 +25,8 @@ table { border-spacing: 0; border-collapse: collapse; }
 .container { position: relative; width: 960px; margin: 64px auto 0; *zoom: 1; }
 .container:before, .container:after { content: ""; display: table; }
 .container:after { clear: both; }
+@media only screen and (max-width: 1177px) { .container { margin: 64px 0 0 100px; } }
+@media only screen and (max-width: 1077px) { .container { margin: 64px 0 0 39px; } }
 
 .push { height: 205px; clear: both; }
 
