@@ -67,6 +67,9 @@ $(document).ready(function() {
 			if ($(window).width() > 1060){
 				$(".js-scroll-top").css('width', width);
 			}
+			else {
+				$(".js-scroll-top").css('width', 39);
+			}
 		}
 		scroll_width();
 
