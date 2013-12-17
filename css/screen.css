@@ -142,6 +142,8 @@ table { border-spacing: 0; border-collapse: collapse; }
 .logo a { display: block; -moz-box-sizing: border-box; box-sizing: border-box; padding-left: 36px; position: relative; background: url(../img/logo.png) 0px 3px no-repeat; }
 .logo a:hover { text-decoration: none; }
 
+.logo__slovnik { position: absolute; top: -15px; right: 28px; font: 18px "Philosopher", sans-serif; color: #870014; }
+
 .logo__name { font: 34px "Philosopher", sans-serif; color: #526871; letter-spacing: -1px; }
 .logo__name span { color: #ea1c1c; }
 .logo__name span b { letter-spacing: 0; font-weight: normal; }
