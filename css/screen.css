@@ -223,7 +223,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .counter { float: right; }
 
-.footer__bot { *zoom: 1; margin-top: 32px; padding: 0 15px; }
+.footer__bot { *zoom: 1; margin-top: 32px; padding: 0 0 0 15px; }
 .footer__bot:before, .footer__bot:after { content: ""; display: table; }
 .footer__bot:after { clear: both; }
 
