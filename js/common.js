@@ -34,27 +34,56 @@ $(document).ready(function() {
 	});
 
 	//switch font-size
+	$(".font-size__smallest").click(function(){
+		$(".font-size a").removeClass('is-active');
+		$(this).addClass('is-active');
+		$('.tvir').css('font-size', '10px');
+		return false;
+	});
 
-	$(".font-size__small").click(function(){
+
+	$(".font-size__smaller").click(function(){
 		$(".font-size a").removeClass('is-active');
 		$(this).addClass('is-active');
 		$('.tvir').css('font-size', '12px');
 		return false;
 	});
 
-	$(".font-size__normal").click(function(){
+	$(".font-size__small").click(function(){
 		$(".font-size a").removeClass('is-active');
 		$(this).addClass('is-active');
 		$('.tvir').css('font-size', '14px');
 		return false;
 	});
 
-	$(".font-size__big").click(function(){
+	$(".font-size__normal").click(function(){
 		$(".font-size a").removeClass('is-active');
 		$(this).addClass('is-active');
 		$('.tvir').css('font-size', '16px');
 		return false;
 	});
+
+	$(".font-size__big").click(function(){
+		$(".font-size a").removeClass('is-active');
+		$(this).addClass('is-active');
+		$('.tvir').css('font-size', '18px');
+		return false;
+	});
+
+	$(".font-size__bigger").click(function(){
+		$(".font-size a").removeClass('is-active');
+		$(this).addClass('is-active');
+		$('.tvir').css('font-size', '20px');
+		return false;
+	});
+	
+	$(".font-size__biggest").click(function(){
+		$(".font-size a").removeClass('is-active');
+		$(this).addClass('is-active');
+		$('.tvir').css('font-size', '22px');
+		return false;
+	});
+
 	// scroll-top
 
 
