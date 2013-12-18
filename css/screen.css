@@ -184,7 +184,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .footer__content:before, .footer__content:after { content: ""; display: table; }
 .footer__content:after { clear: both; }
 
-.footer__right { float: right; width: 379px; padding-top: 32px; }
+.footer__right { float: right; width: 390px; padding-top: 32px; }
 
 .footer-nav { margin-bottom: 40px; }
 .footer-nav ul { *zoom: 1; }
