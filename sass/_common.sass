@@ -525,7 +525,10 @@ table
 			background: #e53535
 			+background(linear-gradient(top, #bf1313 0%, #d02222 60%, #da2b2b 100%))
 .sub-nav__item.is-active
-	background: #e53535 
+	top: -1px
+	background: #e53535
+	&:first-child
+		left: -1px 
 	a
 		color: #fff
 	.fon1, .fon2

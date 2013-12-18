@@ -166,7 +166,8 @@ table { border-spacing: 0; border-collapse: collapse; }
 .sub-nav__item .fon2 { display: none; position: absolute; top: 0; bottom: 50%; right: 0; left: 50%; background: #e53535; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b60b0b), color-stop(100%, #bf1313)); background: -webkit-linear-gradient(top, #b60b0b 0%, #bf1313 100%); background: -moz-linear-gradient(top, #b60b0b 0%, #bf1313 100%); background: -o-linear-gradient(top, #b60b0b 0%, #bf1313 100%); background: linear-gradient(top, #b60b0b 0%, #bf1313 100%); z-index: 1; }
 .sub-nav__item .fon2:after { content: ""; position: absolute; top: 100%; right: 0; left: 0; height: 26px; background: #e53535; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bf1313), color-stop(60%, #d02222), color-stop(100%, #da2b2b)); background: -webkit-linear-gradient(top, #bf1313 0%, #d02222 60%, #da2b2b 100%); background: -moz-linear-gradient(top, #bf1313 0%, #d02222 60%, #da2b2b 100%); background: -o-linear-gradient(top, #bf1313 0%, #d02222 60%, #da2b2b 100%); background: linear-gradient(top, #bf1313 0%, #d02222 60%, #da2b2b 100%); }
 
-.sub-nav__item.is-active { background: #e53535; }
+.sub-nav__item.is-active { top: -1px; background: #e53535; }
+.sub-nav__item.is-active:first-child { left: -1px; }
 .sub-nav__item.is-active a { color: white; }
 .sub-nav__item.is-active .fon1, .sub-nav__item.is-active .fon2 { display: block; }
 .sub-nav__item.is-active:after { content: ""; position: absolute; bottom: -3px; left: 0; right: 0; height: 3px; background: url(../img/triangle-red-small.png) 0 0 repeat-x; }
