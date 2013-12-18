@@ -246,7 +246,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .filter__title { margin-bottom: 24px; line-height: 27px; padding: 0 15px; font-weight: bold; color: #2e3847; text-transform: uppercase; background: white; }
 
-.filter__symbols { width: 216px; }
+.filter__symbols { width: 200px; margin: 0 auto; }
 .filter__symbols td { width: 24px; height: 24px; text-align: center; }
 .filter__symbols td a { display: block; height: 24px; font-size: 19px; text-transform: uppercase; color: #0072a1; }
 .filter__symbols td a:hover { color: white; text-decoration: none; background: #e94444; }
