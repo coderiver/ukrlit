@@ -405,7 +405,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .input-search::-webkit-input-placeholder { color: #c6d6db; }
 
 .auto-fit { position: relative; float: left; width: 560px; height: 30px; border: 2px solid #c6d6db; border-right: none; vertical-align: top; }
-.auto-fit input[type="text"] { width: 490px; height: 20px; line-height: 30px; padding: 5px 12px; font: 15px Calibri, Arial, sans-serif; }
+.auto-fit input[type="text"] { width: 490px; height: 20px; line-height: 30px; padding: 4.6px 12px; font: 15px Calibri, Arial, sans-serif; }
 .auto-fit input[type="text"].placeholder { color: #c6d6db; }
 .auto-fit input[type="text"]:-moz-placeholder { color: #c6d6db; }
 .auto-fit input[type="text"]::-webkit-input-placeholder { color: #c6d6db; }
