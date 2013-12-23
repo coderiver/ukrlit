@@ -239,7 +239,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .sidebar-right { float: right; width: 200px; margin: 0 0 32px 0; }
 
-.sidebar-right_main { margin: 50px 0 32px 0; }
+.sidebar-right_main { margin: 45px 0 32px 0; }
 
 .filter { padding: 12px 15px; margin-bottom: 8px; background: #eef6f8; }
 
@@ -276,7 +276,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .authers__topper { *zoom: 1; }
 .authers__topper:before, .authers__topper:after { content: ""; display: table; }
 .authers__topper:after { clear: both; }
-.authers__topper .h2 { float: left; margin-bottom: 16px; }
+.authers__topper .h2 { float: left; margin-bottom: 12px; }
 
 .sort-by { float: left; font-size: 0; padding-top: 1px; margin: 9px 0 0 20px; }
 .sort-by .sort-by__text { font-size: 12px; color: #abaeb2; line-height: 22px; }
