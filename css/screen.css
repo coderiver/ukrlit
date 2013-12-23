@@ -347,7 +347,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .work-filters:before, .work-filters:after { content: ""; display: table; }
 .work-filters:after { clear: both; }
 
-.works__title { color: #2e3847; text-transform: uppercase; font-weight: bold; margin-bottom: 24px; }
+.works__title { color: #2e3847; text-transform: uppercase; font-weight: bold; margin-bottom: 12px; }
 
 .works-list { margin-bottom: 40px; }
 
