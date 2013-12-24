@@ -33,56 +33,76 @@ $(document).ready(function() {
 		}
 	});
 
-	//switch font-size
-	$(".font-size__smallest").click(function(){
-		$(".font-size a").removeClass('is-active');
-		$(this).addClass('is-active');
-		$('.tvir').css('font-size', '10px');
-		return false;
-	});
+	// //switch font-size
+	// $(".font-size__smallest").click(function(){
+	// 	$(".font-size a").removeClass('is-active');
+	// 	$(this).addClass('is-active');
+	// 	$('.tvir').css('font-size', '10px');
+	// 	return false;
+	// });
 
 
-	$(".font-size__smaller").click(function(){
-		$(".font-size a").removeClass('is-active');
-		$(this).addClass('is-active');
-		$('.tvir').css('font-size', '12px');
-		return false;
-	});
+	// $(".font-size__smaller").click(function(){
+	// 	$(".font-size a").removeClass('is-active');
+	// 	$(this).addClass('is-active');
+	// 	$('.tvir').css('font-size', '12px');
+	// 	return false;
+	// });
 
 	$(".font-size__small").click(function(){
+		var font = $(".tvir").attr("data-font");
+		font--;
+		if (font <= 10) {
+			font = 10;
+			$(".tvir").attr("data-font", 10);
+		}
+	
+		$(".tvir").attr("data-font", font);
 		$(".font-size a").removeClass('is-active');
 		$(this).addClass('is-active');
-		$('.tvir').css('font-size', '14px');
+		$(".tvir").css("font-size", font);
 		return false;
 	});
 
 	$(".font-size__normal").click(function(){
 		$(".font-size a").removeClass('is-active');
 		$(this).addClass('is-active');
+		$(".tvir").attr("data-font", 16);
 		$('.tvir').css('font-size', '16px');
 		return false;
 	});
 
 	$(".font-size__big").click(function(){
+		var font = $(".tvir").attr("data-font");
+		font++;
+		if (font >= 24) {
+			font = 24;
+			$(".tvir").attr("data-font", 24);
+		}
+	
+		$(".tvir").attr("data-font", font);
 		$(".font-size a").removeClass('is-active');
 		$(this).addClass('is-active');
-		$('.tvir').css('font-size', '18px');
+		$(".tvir").css("font-size", font);
 		return false;
 	});
 
-	$(".font-size__bigger").click(function(){
-		$(".font-size a").removeClass('is-active');
-		$(this).addClass('is-active');
-		$('.tvir').css('font-size', '20px');
-		return false;
-	});
+	// $(".font-size__bigger").click(function(){
+	// 	$(".font-size a").removeClass('is-active');
+	// 	$(this).addClass('is-active');
+	// 	$('.tvir').css('font-size', '20px');
+	// 	return false;
+	// });
 	
-	$(".font-size__biggest").click(function(){
-		$(".font-size a").removeClass('is-active');
-		$(this).addClass('is-active');
-		$('.tvir').css('font-size', '22px');
-		return false;
-	});
+	// $(".font-size__biggest").click(function(){
+	// 	$(".font-size a").removeClass('is-active');
+	// 	$(this).addClass('is-active');
+	// 	$('.tvir').css('font-size', '22px');
+	// 	return false;
+	// });
+
+
+
 
 	// container transform
 	function container_resize(){
