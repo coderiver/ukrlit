@@ -155,8 +155,8 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .sub-nav_main { background: white url(../img/sub-nav-bg.png) 98% 0 no-repeat; }
 
-.sub-nav__item { position: relative; float: left; text-align: center; padding: 0 8px; }
-.sub-nav__item a { position: relative; display: block; height: 53px; padding: 0 22px; line-height: 53px; text-align: center; font-size: 14px; color: #526871; -moz-box-sizing: border-box; box-sizing: border-box; text-transform: uppercase; z-index: 2; }
+.sub-nav__item { position: relative; float: left; text-align: center; }
+.sub-nav__item a { position: relative; display: block; height: 53px; padding: 0 25px; line-height: 53px; text-align: center; font-size: 14px; color: #526871; -moz-box-sizing: border-box; box-sizing: border-box; text-transform: uppercase; z-index: 2; }
 .sub-nav__item a:hover { text-decoration: none; border-bottom: 5px solid #c6d6db; }
 .sub-nav__item .fon1 { display: none; position: absolute; top: 0; bottom: 50%; left: 0; right: 50%; background: #e53535; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e83838), color-stop(100%, #e13131)); background: -webkit-linear-gradient(top, #e83838 0%, #e13131 100%); background: -moz-linear-gradient(top, #e83838 0%, #e13131 100%); background: -o-linear-gradient(top, #e83838 0%, #e13131 100%); background: linear-gradient(top, #e83838 0%, #e13131 100%); z-index: 1; }
 .sub-nav__item .fon1:after { content: ""; position: absolute; top: 100%; left: 0; right: 0; height: 26px; background: #e53535; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e13131), color-stop(60%, #d02222), color-stop(100%, #da2b2b)); background: -webkit-linear-gradient(top, #e13131 0%, #d02222 60%, #da2b2b 100%); background: -moz-linear-gradient(top, #e13131 0%, #d02222 60%, #da2b2b 100%); background: -o-linear-gradient(top, #e13131 0%, #d02222 60%, #da2b2b 100%); background: linear-gradient(top, #e13131 0%, #d02222 60%, #da2b2b 100%); }
@@ -170,7 +170,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .sub-nav__item.is-active:after { content: ""; position: absolute; bottom: -3px; left: 0; right: 0; height: 3px; background: url(../img/triangle-red-small.png) 0 0 repeat-x; }
 .sub-nav__item.is-active:hover a { border-bottom: none; }
 
-.sub-nav__main { width: 102px; }
+.sub-nav__main { width: 106px; }
 
 .sub-nav__tvir { width: 84px; }
 
@@ -505,6 +505,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .ie8 .logo__descr { font-size: 9px; }
 .ie8 .letters__item:hover .letters__dropdown { border: 1px solid #cccccc; }
+.ie8 .sub-nav__item a { letter-spacing: 0px; }
 
 /* IE 7 Only */
 *:first-child + html .alphabet li { display: inline; }
