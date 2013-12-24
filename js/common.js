@@ -67,8 +67,8 @@ $(document).ready(function() {
 	$(".font-size__normal").click(function(){
 		$(".font-size a").removeClass('is-active');
 		$(this).addClass('is-active');
-		$(".tvir").attr("data-font", 16);
-		$('.tvir').css('font-size', '16px');
+		$(".tvir").attr("data-font", 12);
+		$('.tvir').css('font-size', '12px');
 		return false;
 	});
 
