@@ -105,9 +105,13 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .header__banner_top { margin: 10px auto 15px; display: block; }
 
-.banner-200 { margin-bottom: 7px; display: block; }
+.banner-200 { margin: 8px 0; display: block; }
 
 .banner-200_mod { margin-top: -177px; }
+
+.banner__cont-top { margin: 47px 0 0; }
+
+.banner__mar-top { margin-top: 120px; }
 
 .cat { position: absolute; top: 50px; right: -245px; }
 
