@@ -4,7 +4,9 @@ html, body { height: 100%; }
 
 @font-face { font-family: "Arial"; src: url("../fonts/ArialMT.eot"); src: local("__"), url("../fonts/ArialMT.woff") format("woff"), url("../fonts/ArialMT.svg") format("svg"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: "Calibri"; src: url("../fonts/Calibri.eot"); src: local("__"), url("../fonts/Calibri.woff") format("woff"), url("../fonts/Calibri.svg") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "Calibri"; src: url("../fonts/Calibri.eot"); src: local("__"), url("../fonts/Calibri.woff") format("woff"), url("../fonts/Calibri.svg") format("svg"); font-weight: 400; font-style: normal; }
+
+@font-face { font-family: "CalibriBold"; src: url("../fonts/calibrib.eot"); src: local("__"), url("../fonts/calibrib.woff") format("woff"), url("../fonts/calibrib.svg") format("svg"); font-weight: normal; font-style: normal; }
 
 body { min-width: 999px; font-family: Calibri, Arial, Tahoma, sans-serif; font-weight: normal; font-size: 14px; line-height: 1.2; }
 
@@ -263,7 +265,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .filter { padding: 12px 15px; margin-bottom: 8px; background: #eef6f8; }
 
-.filter__title { margin-bottom: 24px; line-height: 27px; padding: 0 7px 0 15px; font-weight: bold; color: #2e3847; text-transform: uppercase; background: white; }
+.filter__title { margin-bottom: 24px; line-height: 27px; padding: 0 7px 0 15px; font-weight: bold; color: #2e3847; text-transform: uppercase; background: white; font-family: "CalibriBold", Arial, sans-serif; }
 
 .filter__symbols { width: 200px; margin: 0 auto; }
 .filter__symbols td { width: 24px; height: 24px; text-align: center; }
@@ -329,7 +331,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .author-list__right { float: right; }
 
-.list__title { width: 29px; height: 29px; line-height: 29px; margin-bottom: 15px; text-align: center; background: #737a84; font-size: 18px; font-weight: bold; color: white; }
+.list__title { width: 29px; height: 29px; line-height: 29px; margin-bottom: 15px; text-align: center; background: #737a84; font-size: 18px; font-weight: bold; color: white; font-family: "CalibriBold", Arial, sans-serif; }
 
 .author-list__number { padding-right: 5px; font-size: 17px; color: #526871; }
 
@@ -474,7 +476,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 .letters__item:first-child .letter { padding: 0px 8px 8px; }
 .letters__item:first-child .letters__dropdown { top: -8px; }
 
-.letter { position: relative; display: inline-block; padding: 8px; cursor: pointer; z-index: 3; }
+.letter { position: relative; display: inline-block; padding: 8px; cursor: pointer; z-index: 3; font-family: "CalibriBold", Arial, sans-serif; }
 .letter p { width: 29px; height: 29px; line-height: 29px; color: white; font-size: 18px; font-weight: bold; background: #737a84; text-align: center; }
 
 .letters__dropdown { display: block; position: absolute; top: 0; bottom: 0; left: 0; height: 45px; -moz-box-sizing: border-box; box-sizing: border-box; width: 610px; padding: 8px 32px 8px 86.5px; background: white; z-index: 2; opacity: 0; -webkit-box-shadow: 0px 0px 3px 1px #c6d6db; -moz-box-shadow: 0px 0px 3px 1px #c6d6db; box-shadow: 0px 0px 3px 1px #c6d6db; }
