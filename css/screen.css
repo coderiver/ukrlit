@@ -32,6 +32,8 @@ table { border-spacing: 0; border-collapse: collapse; }
 .container:before, .container:after { content: ""; display: table; }
 .container:after { clear: both; }
 
+.container__tm { margin-top: 25px; }
+
 .push { height: 205px; clear: both; }
 
 .h2 { font: 31px "Philosopher", sans-serif; color: #526871; }
@@ -111,7 +113,7 @@ table { border-spacing: 0; border-collapse: collapse; }
 
 .banner-200_mod { margin-top: -177px; }
 
-.banner__cont-top { margin: 47px 0 0; }
+.banner__cont-top { margin: 27.5px 0 0; }
 
 .banner__mar-top { margin-top: 120px; }
 
